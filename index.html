@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Autotööstuse Ülevaade</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Informatsioon autotööstuse kohta">
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <!-- nav -->
+    <nav>
+
+        <ul>
+            <li><a href="#main">Avaleht</a></li>
+            <li><a href="#models">Mudelite Ülevaade</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+
+    </nav>
+    <menu>
+        <li>BMW</li>
+        <li>Audi</li>
+        <li>Ford</li>
+    </menu>
+    <h1>Autotööstuse <span style="color:blue">Uudised</span></h1>
+    <hr>
+</header>
+<section>
+    <h2>Sisu</h2>
+    <pre>
+    Siit
+    näete
+    heli,
+    videot
+    ja
+    pilte.
+  </pre>
+
+    <audio controls>
+        <source src="https://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Sevish_-__nbsp_.mp3"
+                type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/P7fi4hP_y80?si=YTJYnKjTY1_Obu-I">
+    </iframe>
+
+    <p>Siin on autode <i>kohta</i> infot:</p>
+
+    <blockquote cite="https://et.wikipedia.org/wiki/Auto">
+        Auto on lühend sõnast automobiil, mis tuleneb kreekakeelsest sõnast <sub>autos</sub>, 'ise' ja ladinakeelsest
+        sõnast
+        mobilis, 'liikuv'.
+    </blockquote>
+
+    <canvas id="myCanvas" width="300" height="150" style="border:1px solid grey">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+
+    <picture>
+        <img class="carpic" alt="Workplace" usemap="#workmap" width="400" height="379"
+             src="https://img.freepik.com/premium-vector/car-silhouette-perfect-auto-salon-logo-vector-design_387989-254.jpg"
+        >
+    </picture>
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://audi.com">
+    </map>
+
+    <p><samp>File not found</samp></p>
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="black"/>
+    </svg>
+
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <button onclick="showContent()">Show hidden content</button>
+
+    <template>
+        <h2>Auto</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Benz-velo.jpg/1280px-Benz-velo.jpg"
+             width="214"
+             height="204" alt="">
+    </template>
+</section>
+
+<main id="main">
+    <section>
+        <h2>Tere tulemast Autotööstuse Ülevaatesse</h2>
+        <article>
+            <h5>Uued Arengud Autotööstuses</h5>
+            <h6>Mis on uut?</h6>
+            <p><strong>Autotööstus</strong> on viimastel aastatel <sup>teinud</sup>suuri edusamme, eriti seoses elektriautode
+                arenguga. <abbr title="Elektrisõiduk">EV</abbr> turuosa kasvab kiiresti.</p>
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRliXSUH9szvZkRvXeT8GcmwjgVD1QyhOUOw&s" alt="Elektriauto" width="600">
+                <figcaption><cite>Uus elektriauto mudel</cite></figcaption>
+            </figure>
+            <details>
+                <summary>Lisateave</summary>
+                <p>Lisateabe saamiseks külastage meie <a href="https://www.example.com" target="_blank"
+                                                         rel="noopener noreferrer">veebisaiti</a>.</p>
+            </details>
+        </article>
+    </section>
+    <div>
+        <dialog open>Dialoogi box</dialog>
+    </div>
+    <section id="models">
+        <h4>Mudelid</h4>
+        <ol>
+            <li>
+                <mark>Tesla Model S</mark>
+            </li>
+            <li>BMW i8</li>
+            <li>Audi e-tron</li>
+        </ol>
+        <table>
+            <caption>Auto Mudelite Võrdlus</caption>
+            <colgroup>
+                <col span="1" style="background-color:#f2f2f2">
+                <col span="2">
+            </colgroup>
+            <thead>
+            <tr>
+                <th>Mudel</th>
+                <th>Kiirus</th>
+                <th>Hind</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><kbd>Tesla Model S</kbd></td>
+                <td>250 km/h</td>
+                <td>€80,000</td>
+            </tr>
+            <tr>
+                <td>BMW i8</td>
+                <td>250 km/h</td>
+                <td>
+                    <del>€120,000</del>
+                    <ins>€110,000</ins>
+                </td>
+            </tr>
+            <tr>
+                <td>Audi e-tron</td>
+                <td>200 km/h</td>
+                <td>€70,000</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">Hinnad võivad erineda</td>
+            </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h3>Võta meiega <b>kindlasti</b>ühendust</h3>
+        <p>Oleme avatud
+            <time>09:00</time>
+            kuni
+            <time>21:00</time>
+        </p>
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Kontaktvorm</legend>
+                <label for="name">Nimi:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="date">Külastuse kuupäev:</label>
+                <input type="date" id="date" name="date"><br>
+
+                <label for="car">Vali auto:</label>
+                <select id="car" name="car">
+                    <optgroup label="Elektriautod">
+                        <option value="tesla">Tesla Model S</option>
+                        <option value="audi">Audi e-tron</option>
+                    </optgroup>
+                    <optgroup label="Hübriidid">
+                        <option value="bmw">BMW i8</option>
+                    </optgroup>
+                </select><br>
+                <p>Tahan autot müüa:</p>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Jah">
+                <label for="vehicle1"> Jah</label><br>
+                <input type="radio" id="vehicle2" name="vehicle2" value="Ei">
+                <label for="vehicle2"> Ei</label><br>
+                <p>Mitu autot tahad müüa?</p>
+                <label for="quantity">Kogus :</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+                <label for="message">Sõnum:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea><br>
+
+                <button type="submit">Saada</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p><small>&copy; 2023 Autotööstuse Ülevaade</small></p>
+    <address>
+        Võta ühendust: <a href="mailto:info@example.com">info@example.com</a>.
+    </address>
+</footer>
+<code>
+    x = 5;
+    y = 6;
+    z = x + y;
+</code>
+<script>
+    function showContent() {
+        let temp = document.getElementsByTagName("template")[0];
+        let clon = temp.content.cloneNode(true);
+        document.body.appendChild(clon);
+    }
+
+    let canvas = document.getElementById("myCanvas");
+    let ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#FF0000";
+    ctx.fillRect(0, 0, 80, 80);
+    console.log("Tere tulemast autotööstuse veebilehele!");
+</script>
+</body>
+</html>
